@@ -1,0 +1,26 @@
+name: remote_config_demo
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  after_layout: ^1.2.0
+  cupertino_icons: ^1.0.2
+  firebase_analytics: ^10.7.2
+  firebase_core: ^2.24.0
+  firebase_remote_config: ^4.3.6
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
