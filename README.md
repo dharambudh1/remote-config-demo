@@ -1,16 +1,15 @@
-# remote_config_demo
+# Remote Config Demo
 
-A new Flutter project.
+## Information
+Firebase Remote Config is a cloud service provided by Google's Firebase platform that enables developers to change the behavior and appearance of their apps without publishing an app update. It allows you to define parameters or configurations on the Firebase console, and your app can then fetch and apply these configurations at runtime.
 
-## Getting Started
+## Important
+In this demonstration application, we remotely control and manage five categories of data:
+- Boolean Data (True/False)
+- JSON Data (Map<String, dynamic>)
+- Numeric Data (Int/Double)
+- Regular String Data
+- Hexadecimal String Data
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Preview
+![alt text](https://i.postimg.cc/6q4GjHP4/Screenshot-2023-12-02-at-7-58-34-PM.png "img")
